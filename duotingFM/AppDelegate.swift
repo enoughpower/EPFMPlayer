@@ -42,6 +42,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     lazy var musicManager: LocalMusicPlayerTool! = {
         return LocalMusicPlayerTool.shareMusicPlay()
     }()
+    lazy var bottonBar: MusicBottomView = {
+        return MusicBottomView(frame: CGRectMake(0, self.window!.bounds.size.height - 60, self.window!.bounds.size.width, 60))
+    }()
     
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -56,9 +59,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //启用远程控制事件接收
         UIApplication.sharedApplication().beginReceivingRemoteControlEvents()
         
-         let bottonBar = MusicBottomView(frame: CGRectMake(0, self.window!.bounds.size.height - 60, self.window!.bounds.size.width, 60))
-        self.window!.addSubview(bottonBar)
-        self.window!.bringSubviewToFront(bottonBar)
+        self.window!.addSubview(self.bottonBar)
+        self.window!.bringSubviewToFront(self.bottonBar)
+        if self.musicManager.currentMusicInfo == nil {
+            self.bottonBar.hidden = true
+        }
         // Override point for customization after application launch.
         return true
     }

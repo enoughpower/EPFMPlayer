@@ -33,8 +33,8 @@ typedef NS_OPTIONS(NSInteger, PlayStatus)
 @property(nonatomic, strong)NSArray *MusicList;
 @property(nonatomic, assign)NSInteger currentItem;
 @property(nonatomic, strong)MusicInfoModel *currentMusicInfo;
-@property(nonatomic,assign)id delegate;
-@property(nonatomic,assign)id twoDelegate;
+@property(nonatomic, weak)id delegate;
+@property(nonatomic, weak)id twoDelegate;
 //  0代表顺序循环  1代表随机
 @property(nonatomic,assign)NSInteger mode;
 // 当前歌曲专辑图片

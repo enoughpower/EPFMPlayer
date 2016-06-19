@@ -7,14 +7,22 @@
 //
 
 import UIKit
+import AFNetworking
+
 
 class BaseViewController: UIViewController {
-
+    lazy var networkManager: AFNetworkReachabilityManager = {
+        let manager = AFNetworkReachabilityManager.sharedManager()
+        manager.startMonitoring()
+        return manager
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if self.respondsToSelector(Selector("edgesForExtendedLayout")) {
             if let vc = self.navigationController?.visibleViewController {
-                if vc.isKindOfClass(ContentViewController.self) {
+                if vc.isKindOfClass(ContentViewController.self) || vc.isKindOfClass(MusicPlayViewController.self) {
                     self.edgesForExtendedLayout = UIRectEdge.All
                 }else {
                     self.edgesForExtendedLayout = UIRectEdge.None

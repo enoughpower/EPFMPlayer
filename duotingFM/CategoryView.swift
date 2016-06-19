@@ -16,8 +16,11 @@ class CategoryView: UIView {
         layout.minimumLineSpacing = 20
         layout.minimumInteritemSpacing = 20
         layout.scrollDirection = .Vertical
+        layout.footerReferenceSize = CGSizeMake(self.frame.size.width, 60)
         var collectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: layout)
         collectionView.backgroundColor = UIColor.clearColor()
+        let footer = UIView(frame: CGRectMake(0, self.frame.size.height, self.frame.size.width,60))
+        collectionView.addSubview(footer)
         return collectionView
     }()
     
@@ -33,7 +36,7 @@ class CategoryView: UIView {
         self.backgroundColor = UIColor(white: 0.9, alpha: 1)
         self.addSubview(self.collectionView)
         collectionView.snp_makeConstraints { (make) in
-            make.edges.equalTo(self)
+           make.edges.equalTo(self)
         }
     }
 

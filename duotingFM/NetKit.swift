@@ -46,7 +46,7 @@ class NetKit: NSObject {
     static func requestWithMain(page: Int, response: (success:Bool, dataArr:[AlbumModel]?) -> Void) {
         let dic = [
             "page": "\(page)",
-            "pageSize": "20",
+            "pageSize": "24",
         ]
         requestWithUrl(mainUrl, param: dic) { (success, dataDic) in
             if success {

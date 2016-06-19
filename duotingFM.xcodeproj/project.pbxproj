@@ -50,6 +50,8 @@
 		98E8C5B21D15713E00796E1E /* iconfont-kaishi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E8C5951D15713E00796E1E /* iconfont-kaishi@2x.png */; };
 		98E8C5B31D15713E00796E1E /* iconfont-zhutishangyiqu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E8C5961D15713E00796E1E /* iconfont-zhutishangyiqu@2x.png */; };
 		98E8C5B41D15713E00796E1E /* iconfont-zhutixiayiqu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E8C5971D15713E00796E1E /* iconfont-zhutixiayiqu@2x.png */; };
+		98EC34F11D16A34B00EE37D9 /* MusicPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC34F01D16A34B00EE37D9 /* MusicPlayView.swift */; };
+		98EC34F31D16DE4000EE37D9 /* MusicPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC34F21D16DE4000EE37D9 /* MusicPlayViewController.swift */; };
 		F6DBC9882B6A6F72948684D0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753381FE44A32C1A03F7C2D0 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +118,8 @@
 		98E8C5951D15713E00796E1E /* iconfont-kaishi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-kaishi@2x.png"; sourceTree = "<group>"; };
 		98E8C5961D15713E00796E1E /* iconfont-zhutishangyiqu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-zhutishangyiqu@2x.png"; sourceTree = "<group>"; };
 		98E8C5971D15713E00796E1E /* iconfont-zhutixiayiqu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-zhutixiayiqu@2x.png"; sourceTree = "<group>"; };
+		98EC34F01D16A34B00EE37D9 /* MusicPlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayView.swift; sourceTree = "<group>"; };
+		98EC34F21D16DE4000EE37D9 /* MusicPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,7 @@
 				98E8C5161D12BB8100796E1E /* MainViewController.swift */,
 				98E8C52D1D12F4FA00796E1E /* CategoryViewController.swift */,
 				98E8C5681D14755C00796E1E /* ContentViewController.swift */,
+				98EC34F21D16DE4000EE37D9 /* MusicPlayViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 			isa = PBXGroup;
 			children = (
 				98E8C5771D154AB300796E1E /* MusicBottomView.swift */,
+				98EC34F01D16A34B00EE37D9 /* MusicPlayView.swift */,
 			);
 			name = Player;
 			sourceTree = "<group>";
@@ -504,6 +510,7 @@
 				98E8C54D1D13BEB300796E1E /* WMMenuView.m in Sources */,
 				98E8C5281D12D2C100796E1E /* BaseViewController.swift in Sources */,
 				98E8C55D1D13D98A00796E1E /* CategoryView.swift in Sources */,
+				98EC34F31D16DE4000EE37D9 /* MusicPlayViewController.swift in Sources */,
 				98E8C55B1D13CE9000796E1E /* UINavigationBar+Background.m in Sources */,
 				98E8C4FD1D12AA9300796E1E /* AppDelegate.swift in Sources */,
 				98E8C5671D1471BC00796E1E /* ContentCell.swift in Sources */,
@@ -515,6 +522,7 @@
 				98E8C5621D14079400796E1E /* MainViewCell.swift in Sources */,
 				98E8C52E1D12F4FA00796E1E /* CategoryViewController.swift in Sources */,
 				98E8C54B1D13BEB300796E1E /* WMFooldView.m in Sources */,
+				98EC34F11D16A34B00EE37D9 /* MusicPlayView.swift in Sources */,
 				98E8C56C1D151F7400796E1E /* UINavigationBar+FitHight.m in Sources */,
 				98E8C5721D1547EC00796E1E /* MusicInfoModel.m in Sources */,
 				98E8C5691D14755C00796E1E /* ContentViewController.swift in Sources */,

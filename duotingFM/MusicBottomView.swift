@@ -96,7 +96,10 @@ class MusicBottomView: UIView, MusicProgressViewDelegate, LocalMusicPlayerToolDe
     }
     // MARK: - action
     func bottomAction(tapGestureRecognizer: UITapGestureRecognizer) {
-        
+        let playVC = MusicPlayViewController()
+        let app = UIApplication.sharedApplication().delegate as! AppDelegate
+        let nav = app.window?.rootViewController as! BaseNavigationController
+        nav.pushViewController(playVC, animated: true)
     }
     func nextAction(sender: UIButton) {
         self.musicManager.next()

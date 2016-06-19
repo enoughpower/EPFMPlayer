@@ -10,3 +10,5 @@ import UIKit
 let MainReuseIdentifier = "MainCell"
 let CategoryReuseIdentifier = "CategoryCell"
 let ContentReuseIdentifier = "ContentCell"
+
+let M_PI: CGFloat = 3.14159265358979323846264338327950288

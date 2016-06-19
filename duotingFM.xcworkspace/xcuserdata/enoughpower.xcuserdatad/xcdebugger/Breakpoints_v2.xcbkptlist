@@ -84,11 +84,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "duotingFM/MusicBottomView.swift"
-            timestampString = "487961372.522119"
+            timestampString = "488040446.665386"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "musicDidChangePlayStatus(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -100,13 +100,77 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "duotingFM/MusicBottomView.swift"
-            timestampString = "487961372.522119"
+            timestampString = "488040446.665386"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
             landmarkName = "musicDidChangeSong(_:musicInfo:)"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "duotingFM/ContentViewController.swift"
+            timestampString = "488042383.470526"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "musicDidChangeSong(_:musicInfo:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "duotingFM/MusicPlayViewController.swift"
+            timestampString = "488040647.522401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "duotingFM.MusicPlayViewController.viewDidLoad () -&gt; ()"
+                  moduleName = "duotingFM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enoughpower/EPFMPlayer/duotingFM/MusicPlayViewController.swift"
+                  timestampString = "488040162.055933"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "299">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "duotingFM.MusicPlayViewController.viewDidLoad () -&gt; ()"
+                  moduleName = "duotingFM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enoughpower/EPFMPlayer/duotingFM/MusicPlayViewController.swift"
+                  timestampString = "488040162.056052"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "720">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
